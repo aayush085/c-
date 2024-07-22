@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int  main(){
+ 
+   int a[6]={1,3,-4,9,-8,4};
+   cout<<"even number";
+   for( int i=0;i<=6;i++)
+    if(a[i]%2==0){
+        cout<<a[i]<<",";
+    }
+    cout<<endl;
+    
+      int b[6]={1,3,-4,9,-8,4};
+   cout<<"odd number";
+   for( int j=0;j<=6;j++)
+    if(b[j]%2!=0){
+        cout<<b[j]<<",";
+    }
+  cout<<endl;
+  
+     int c[6]={1,3,-4,9,-8,4};
+   cout<<"negative number";
+   for( int k=0;k<=6;k++)
+    if(c[k]<0){
+        cout<<b[k]<<",";
+    }
+    cout<<endl;
+      int d[6]={1,3,-4,9,-8,4};
+   cout<<"positive number";
+   for( int l=0;l<=6;l++)
+    if(d[l]>0){
+        cout<<d[l]<<",";
+    }
+    
+    cout<<endl;
+
+     
+}
+
+
+
